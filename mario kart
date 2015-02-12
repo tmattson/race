@@ -1,0 +1,40 @@
+<script>
+ function Racer (v, w, s) {
+ this.vehicle = v;
+ this.weight = w;
+ this.speed = s;
+
+ };
+
+var Mario=new Racer("car", 200, 50);
+var Luigi=new Racer("car", 1000, 100);
+var Peaches=new Racer("car", 3000, 200);
+var Toad=new Racer("car", 50, 75);
+var Bowser=new Racer("car", 3000, 300);
+
+this.report = function() {
+  	  	return this.name + " is at " + this.position;
+
+this.race = function() {
+  	  if(this.vehicle < (Math.random() * 7)) {
+  	    this.weight += this.speed;
+  	  }
+  	 };
+  	}
+     
+  	 var distance = 10000
+  
+  while (new Racer < distance) {
+  Mario.race();
+  Luigi.race(); 
+  Peaches.race();
+  Toad.race();
+  Bowser.race();
+  };
+
+  {
+  console.log(Racer.report());
+  
+}
+
+</script>
